@@ -10,11 +10,12 @@ export default function Navbar() {
             <NavLink href='/'>Home</NavLink>
             <NavLink href="/about">About</NavLink>
             <NavLink href="/products">Products</NavLink>
-            <NavLink href="/asdqwe">404</NavLink>
+            <NavLink href="/products2">Products 2</NavLink>
             </div>
             <div className='flex gap-5'>
                 <ButtonAuth onClick={() => {router.push('login')}}>Login</ButtonAuth>
                 <ButtonAuth onClick={() => {router.push('register')}}>Register</ButtonAuth>
+                <ButtonAuth onClick={() => {router.push('dashboard')}}>Dashboard</ButtonAuth>
             </div>
         </nav>
     )
